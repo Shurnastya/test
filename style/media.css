@@ -1,0 +1,362 @@
+@media (max-width: 992px) {
+
+    .hidden-menu {
+        display: block;
+    }
+  
+    .nav {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .price {
+        display: none;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .logo-wrapper {
+        justify-content: center;
+    }
+
+    .info-burger {
+        display: block;
+    }
+
+    .price-burger {
+        display: block;
+    }
+
+    .social-burger {
+        display: block;
+    }
+    
+    .info-burger p {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .info-burger p span {
+        font-weight: 600;
+    }
+    
+    .price-burger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .price-burger a img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .price-burger .save {
+        border-bottom: 2px dotted #12C868;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #1C1C1C;
+    }
+
+    .social-burger {
+        position: relative;
+    }
+    
+    .social-wrapper-burger {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-burger p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .social-burger p span {
+        font-weight: 600;
+    }
+    
+    .social-burger .viber-burger {
+        width: 30px;
+        height: 30px;
+        background-color: #976FCC;
+        border-radius: 50%;
+        position: relative;
+        margin-right: 5px;
+    }
+    
+    
+    .social-burger .viber-burger span {
+        display: block;
+        background-image: url(../img/viber.svg);
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: 7px;
+        top: 7px;
+    }
+    
+    .social-burger .whatsapp-burger {
+        width: 30px;
+        height: 30px;
+        background-color: #12C868;
+        border-radius: 50%;
+        position: relative;
+        margin-right: 5px;
+    }
+    
+    .social-burger .whatsapp-burger span {
+        display: block;
+        background-image: url(../img/whatsapp.svg);
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: 7px;
+        top: 7px;
+    }
+    
+    .social-burger .telegram-burger {
+        width: 30px;
+        height: 30px;
+        background-color: #05A0EB;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .social-burger .telegram-burger span {
+        display: block;
+        background-image: url(../img/telegram.svg);
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: 8px;
+        top: 7px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .header-wrapper {
+        text-align: center;
+    }
+
+    .around {
+        justify-content: center;
+    }
+
+    .header-wrapper .button {
+        display: block;
+        margin-right: 0;
+    }
+
+    .header-wrapper .button-1 {
+        margin-bottom: 20px;
+    }
+
+    .button button {
+        width: 240px;
+        height: 50px;
+    }
+
+    .button button p {
+        left: 40px;
+        font-size: 10px;
+    }
+
+    .header-wrapper img {
+        right: 30px;
+    }
+
+    .cost {
+        margin-bottom: 15px;
+    }
+
+    .nav-toggle ul:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 928px) {
+
+    .button button p {
+        left: 20px;
+        font-size: 8px;
+    }
+
+    .button button {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .button button {
+        width: 170px;
+        height: 40px;
+    }
+
+    .header-wrapper img {
+        right: 17px;
+    }
+
+    .header-wrapper .button-1 {
+        margin-bottom: 10px;
+    }
+
+    .header__toggle-menu li a {
+        font-size: 15px;
+    }
+
+    .header__toggle-menu li .home {
+        background-size: 25px 25px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .header__toggle-menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .nav-toggle ul {
+        margin-bottom: 10px;
+    }
+
+    .price-burger .save {
+        font-size: 10px;
+    }
+        
+}
+
+@media (max-width: 705px) {
+
+    .button button p {
+        font-size: 6px;
+    }
+
+    .button button {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 565px) {
+
+    .button button {
+        width: 130px;
+        height: 35px;
+    }
+
+    .hidden-menu {
+        width: 30px;
+    }
+    
+    .hidden-menu .line:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    .hidden-menu {
+        top: 16px;
+        right: 18px;
+    }
+
+    .hidden-menu input:checked ~ span:nth-last-child(2) {
+        transform: translateY(-6px) translateX(0) rotate(-45deg);
+    }
+
+    .header__toggle-menu {
+        top: 10%;
+    }
+
+    .header__toggle-menu li a {
+        font-size: 12px;
+    }
+
+    .info-burger p {
+        font-size: 10px;
+    }
+
+    .nav-toggle {
+        margin-top: 2%;
+    }
+
+    .nav-toggle ul {
+        margin-bottom: 10px;
+    }
+
+    .button button p {
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 425px) {
+    .number h2 {
+        font-size: 5px;
+    }
+
+    .number h3 {
+        font-size: 8px;
+    }
+
+    .header__toggle-menu {
+        top: 5%;
+    }
+    
+    .price-burger .save {
+        font-size: 6px;
+    }
+
+    .price-burger a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .social-burger p {
+        font-size: 10px;
+    } 
+    
+}
+
+@media (max-width: 440px) {
+
+    .button button p {
+        font-size: 4px;
+    }
+
+    .button button {
+        width: 110px;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .number h2 {
+        font-size: 4px;
+    }
+
+    .number h3 {
+        font-size: 6px;
+    }
+}
