@@ -755,7 +755,7 @@ body a, button{
     background-color: #F38120;
     position: absolute;
     top: 6px;
-    left: -10px;
+    left: -8px;
 }
 
 .checkbox-label::after {
@@ -767,8 +767,8 @@ body a, button{
     background-repeat: no-repeat;
     background-size: 7px 7px;
     position: absolute;
-    top: 13px;
-    left: -7px;
+    top: 9px;
+    left: -5px;
     opacity: 0;
 }
 

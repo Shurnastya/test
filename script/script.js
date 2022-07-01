@@ -11,6 +11,7 @@ function popup () {
     popupClose.addEventListener('click', () => {
         popup.classList.remove('active');
     });
+
 }
 popup();
 
