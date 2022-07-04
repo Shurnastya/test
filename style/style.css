@@ -26,8 +26,8 @@ body a, button{
 }
 
 .nav {
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -42,7 +42,7 @@ body a, button{
 }
 
 .nav a {
-    font-size: 1vw;
+    font-size: 0.8vw;
     font-weight: 500;
     letter-spacing: 0.1vw;
     text-transform: uppercase;
@@ -56,9 +56,9 @@ body a, button{
     display: block;
     background-image: url(../img/home.svg);
     background-repeat: no-repeat;
-    background-size: 2vw 2vw;
-    width: 2vw;
-    height: 2vw;
+    background-size: 1.2vw 1.2vw;
+    width: 1.2vw;
+    height: 1.2vw;
     transition: 0.3s;
 }
 
@@ -95,7 +95,7 @@ body a, button{
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: -1.3vw;
+    top: -1.18vw;
 }
 
 .info {
@@ -104,7 +104,7 @@ body a, button{
 
 .info p {
     text-align: center;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     margin-bottom: 1vw;
 }
 
@@ -131,7 +131,7 @@ body a, button{
 
 .price .save {
     border-bottom: 0.2vw dotted #12C868;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
@@ -149,7 +149,7 @@ body a, button{
 }
 
 .logo a img {
-    width: 20vw;
+    width: 18vw;
 }
 
 .social {
@@ -280,7 +280,7 @@ body a, button{
 }
 
 .number h2 {
-    font-size: 0.93vw;
+    font-size: 0.85vw;
     font-weight: 300;
 }
 
@@ -289,7 +289,7 @@ body a, button{
 }
 
 .number h3 {
-    font-size: 1.9vw;
+    font-size: 1.7vw;
 }
 
 .number a {
@@ -318,33 +318,34 @@ body a, button{
 
 .bye {
     display: flex;
+    height: 33vw;
 }
 
 .block {
-    width: 25vw;
-    height: 60vw;
+    width: 20vw;
+    height: 42vw;
     background-image: url(../img/Форма.png);
     background-repeat: no-repeat;
-    background-size: 25vw 60vw;
+    background-size: 20vw 42vw;
     position: relative;
-    left: -6vw;
-    top: -6vw;
-    margin-right: -7vw;
+    left: -3vw;
+    top: -9vw;
+    margin-right: -1vw;
 }
 
 .info-block {
     position: relative;
-    width: 12vw;
-    top: 9vw;
-    left: 6.5vw;
+    width: 11vw;
+    top: 6.5vw;
+    left: 4.6vw;
 }
 
 .block p {
-    font-size: 1vw;
+    font-size: 0.8vw;
     font-weight: 400;
     text-align: center;
     margin-bottom: 1.5vw;
-    line-height: 1.7vw;
+    line-height: 1vw;
 }
 
 .block p span {
@@ -358,13 +359,12 @@ body a, button{
 }
 
 .header-wrapper {
-    width: 50vw;
-    margin-top: 7vw;
+    width: 45vw;
 }
 
 .header-wrapper h2 {
     font-weight: 300;
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-bottom: 1vw;
     line-height: 4vw;
 }
@@ -372,7 +372,7 @@ body a, button{
 .header-wrapper p {
     text-align: center;
     font-weight: 300;
-    font-size: 1vw;
+    font-size: 0.8vw;
     width: 18vw;
     line-height: 1.7vw;
 }
@@ -383,7 +383,7 @@ body a, button{
 
 .header-wrapper h3 {
     font-weight: 300;
-    font-size: 2vw;
+    font-size: 1.6vw;
     margin-bottom: 2vw;
 }
 
@@ -430,18 +430,18 @@ body a, button{
 }
 
 .button button {
-    width: 21.5vw;
-    height: 5.5vw;
+    width: 18vw;
+    height: 4.3vw;
     color: #FFFFFF;
     position: relative;
 }
 
 .button button p {
     text-transform: uppercase;
-    font-size: 1vw;
+    font-size: 0.8vw;
     width: 15vw;
     position: relative;
-    left: 2.5vw;
+    left: 1.05vw;
 }
 
 .header-wrapper .button-1 {
