@@ -18,6 +18,7 @@ body a, button{
     background-image: url(../img/BG.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .wrapper {
@@ -26,8 +27,8 @@ body a, button{
 }
 
 .nav {
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -318,12 +319,12 @@ body a, button{
 
 .bye {
     display: flex;
-    height: 33vw;
+    height: 40vh;
 }
 
 .block {
     width: 20vw;
-    height: 42vw;
+    height: 83vh;
     background-image: url(../img/Форма.png);
     background-repeat: no-repeat;
     background-size: 20vw 42vw;
@@ -582,7 +583,7 @@ body a, button{
 
 .header__toggle-menu li a{
     color: #1C1C1C;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -755,7 +756,7 @@ body a, button{
     background-color: #F38120;
     position: absolute;
     top: 6px;
-    left: -10px;
+    left: -16px;
 }
 
 .checkbox-label::after {
@@ -768,7 +769,7 @@ body a, button{
     background-size: 7px 7px;
     position: absolute;
     top: 9px;
-    left: -7px;
+    left: -13px;
     opacity: 0;
 }
 
